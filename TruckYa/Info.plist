@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>TrucYa</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>3.130.157.207</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Used to upload image taken from camera</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Truc-Ya needs your location access to display nearby drivers </string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Truc-Ya needs your continuous location access to update driver location to customer</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Truc-Ya needs your location access to display nearby drivers</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Used to upload image from Photo Library</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Gilroy-Medium.ttf</string>
+		<string>Gilroy-Black.ttf</string>
+		<string>Gilroy-Bold.ttf</string>
+		<string>Gilroy-ExtraBold.ttf</string>
+		<string>Gilroy-Heavy.ttf</string>
+		<string>Gilroy-Light.ttf</string>
+		<string>Gilroy-Regular.ttf</string>
+		<string>Gilroy-SemiBold.ttf</string>
+		<string>Gilroy-Thin.ttf</string>
+		<string>Gilroy-UltraLight.ttf</string>
+		<string>rajdhani-bold.ttf</string>
+		<string>rajdhani-light.ttf</string>
+		<string>rajdhani-medium.ttf</string>
+		<string>rajdhani-regular.ttf</string>
+		<string>rajdhani-semibold.ttf</string>
+		<string>BebasNeue-Bold.ttf</string>
+		<string>BebasNeue-Book.ttf</string>
+		<string>BebasNeue-Light.ttf</string>
+		<string>BebasNeue-Regular.ttf</string>
+		<string>BebasNeue-Thin.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

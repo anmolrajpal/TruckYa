@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AddCard" customModule="TruckYa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="312" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7sR-l1-4K3" customClass="CardView" customModule="TruckYa" customModuleProvider="target">
+                    <rect key="frame" x="4" y="4" width="304" height="292"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZHW-hh-DyN" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                            <rect key="frame" x="16" y="49.5" width="272" height="39"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Card Number"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                    <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PP0-UP-H5Z" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                            <rect key="frame" x="16" y="169" width="272" height="39"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Name of card holder"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                    <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dxF-ei-ON2" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                            <rect key="frame" x="16" y="121.5" width="52" height="39.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="52" id="1T6-f2-NLl"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Month"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                    <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KzS-H6-08u" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                            <rect key="frame" x="76" y="121.5" width="52" height="39.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="52" id="2iX-My-keK"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Year"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                    <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valid Through" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJ6-NC-20o">
+                            <rect key="frame" x="16" y="96.5" width="92" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add New Card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWW-ip-iqu">
+                            <rect key="frame" x="91.5" y="16" width="121" height="21.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="vzN-Wj-aOt">
+                            <rect key="frame" x="24" y="232" width="256" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PF6-a5-iL3">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="40"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="120" id="0yx-RD-OA9"/>
+                                        <constraint firstAttribute="height" constant="40" id="zmM-zg-Qa4"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                    <state key="normal" title="Add Card">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="setCornerRadius">
+                                            <real key="value" value="4"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="handleAddCard:" destination="iN0-l3-epB" eventType="touchUpInside" id="3xe-Ft-7rt"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubM-ah-22c">
+                                    <rect key="frame" x="136" y="0.0" width="120" height="40"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="3d8-g6-HUz"/>
+                                        <constraint firstAttribute="width" constant="120" id="Fje-Sa-S1o"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                    <state key="normal" title="Cancel">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="setCornerRadius">
+                                            <real key="value" value="4"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="handleCancel:" destination="iN0-l3-epB" eventType="touchUpInside" id="4Jb-Or-Tne"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="slf-R5-FVm" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                            <rect key="frame" x="236" y="121" width="52" height="39.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="52" id="5Xa-rt-sgA"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="CVV"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                    <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="yJ6-NC-20o" firstAttribute="top" secondItem="ZHW-hh-DyN" secondAttribute="bottom" constant="8" id="DEf-qg-kZL"/>
+                        <constraint firstItem="slf-R5-FVm" firstAttribute="top" secondItem="yJ6-NC-20o" secondAttribute="bottom" constant="7.5" id="Gy0-ak-pbG"/>
+                        <constraint firstItem="ZHW-hh-DyN" firstAttribute="leading" secondItem="7sR-l1-4K3" secondAttribute="leading" constant="16" id="IIR-VR-KpJ"/>
+                        <constraint firstItem="yJ6-NC-20o" firstAttribute="leading" secondItem="7sR-l1-4K3" secondAttribute="leading" constant="16" id="IZi-Sl-bu4"/>
+                        <constraint firstItem="KzS-H6-08u" firstAttribute="leading" secondItem="dxF-ei-ON2" secondAttribute="trailing" constant="8" id="IlE-Oo-PMi"/>
+                        <constraint firstItem="dxF-ei-ON2" firstAttribute="leading" secondItem="7sR-l1-4K3" secondAttribute="leading" constant="16" id="JzZ-dH-OsH"/>
+                        <constraint firstItem="PP0-UP-H5Z" firstAttribute="top" secondItem="dxF-ei-ON2" secondAttribute="bottom" constant="8" id="Q98-g9-ahy"/>
+                        <constraint firstAttribute="trailing" secondItem="slf-R5-FVm" secondAttribute="trailing" constant="16" id="Rf6-yn-Kxu"/>
+                        <constraint firstItem="ZHW-hh-DyN" firstAttribute="top" secondItem="tWW-ip-iqu" secondAttribute="bottom" constant="12" id="WtD-XO-ywo"/>
+                        <constraint firstItem="KzS-H6-08u" firstAttribute="top" secondItem="yJ6-NC-20o" secondAttribute="bottom" constant="8" id="e3H-OF-Nhy"/>
+                        <constraint firstItem="tWW-ip-iqu" firstAttribute="centerX" secondItem="7sR-l1-4K3" secondAttribute="centerX" id="eFr-Jo-ZCk"/>
+                        <constraint firstItem="tWW-ip-iqu" firstAttribute="top" secondItem="7sR-l1-4K3" secondAttribute="top" constant="16" id="fxl-ES-LsY"/>
+                        <constraint firstItem="PP0-UP-H5Z" firstAttribute="leading" secondItem="7sR-l1-4K3" secondAttribute="leading" constant="16" id="ge9-1l-gE9"/>
+                        <constraint firstItem="vzN-Wj-aOt" firstAttribute="centerX" secondItem="7sR-l1-4K3" secondAttribute="centerX" id="hJe-ny-av3"/>
+                        <constraint firstItem="dxF-ei-ON2" firstAttribute="top" secondItem="yJ6-NC-20o" secondAttribute="bottom" constant="8" id="hes-gy-LD1"/>
+                        <constraint firstItem="vzN-Wj-aOt" firstAttribute="top" secondItem="PP0-UP-H5Z" secondAttribute="bottom" constant="24" id="mG5-1w-6VT"/>
+                        <constraint firstAttribute="trailing" secondItem="ZHW-hh-DyN" secondAttribute="trailing" constant="16" id="mlg-wY-AhX"/>
+                        <constraint firstAttribute="trailing" secondItem="PP0-UP-H5Z" secondAttribute="trailing" constant="16" id="s8S-Wb-KVR"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="7sR-l1-4K3" secondAttribute="bottom" constant="4" id="34g-kL-dJd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7sR-l1-4K3" secondAttribute="trailing" constant="4" id="4Lj-Mq-oLU"/>
+                <constraint firstItem="7sR-l1-4K3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="4" id="YOw-9d-xWx"/>
+                <constraint firstItem="7sR-l1-4K3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="jD2-RK-iB9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cardCVV" destination="slf-R5-FVm" id="Nvg-sc-5ye"/>
+                <outlet property="cardHolderNameTF" destination="PP0-UP-H5Z" id="dNn-KW-46r"/>
+                <outlet property="cardNoTF" destination="ZHW-hh-DyN" id="yca-UT-yvS"/>
+                <outlet property="monthTF" destination="dxF-ei-ON2" id="XVf-bj-AJQ"/>
+                <outlet property="yearTF" destination="KzS-H6-08u" id="Emb-Ln-ru7"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="352.90178571428572"/>
+        </view>
+    </objects>
+</document>

@@ -1,4 +1,4 @@
-# Truc-Ya!!
+# Truc-Ya!! (Sample project repo)
 An application that lets Truck drivers earn extra by allowing to provide services like Hauling, package delivery, etc
 
 
@@ -8,12 +8,11 @@ An application that lets Truck drivers earn extra by allowing to provide service
 
 
 <p align="center">
-<img src="Public/Screenshots/1.png", width=225, height=401>
-<img src="Public/Screenshots/2.png", width=225, height=401>
-<img src="Public/Screenshots/3.png", width=225, height=401>
-<img src="Public/Screenshots/4.png", width=225, height=401>
-<img src="Public/Screenshots/5.png", width=225, height=401>
-<img src="Public/Screenshots/finaldesign.pdf", width=225, height=401>
+<img src="Public/Screenshots/1.png", width=225, height=487>
+<img src="Public/Screenshots/2.png", width=225, height=487>
+<img src="Public/Screenshots/3.png", width=225, height=487>
+<img src="Public/Screenshots/4.png", width=225, height=487>
+<img src="Public/Screenshots/5.png", width=225, height=392>
 </p>
 
 

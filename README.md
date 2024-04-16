@@ -12,7 +12,8 @@ An application that lets Truck drivers earn extra by allowing to provide service
 <img src="Public/Screenshots/2.png", width=225, height=487>
 <img src="Public/Screenshots/3.png", width=225, height=487>
 <img src="Public/Screenshots/4.png", width=225, height=487>
-<img src="Public/Screenshots/5.png", width=225, height=392>
+<img src="Public/Screenshots/5.png", width=225, height=414>
+<img src="Public/Screenshots/6.png", width=225, height=401>
 </p>
 
 

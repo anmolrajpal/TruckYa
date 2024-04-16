@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -215,6 +215,7 @@
 		3D690746234777D6004A65EE /* CustomerMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D690745234777D6004A65EE /* CustomerMapVC.swift */; };
 		6F9E2AE2237BFC850055D345 /* SignUpCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E2AE1237BFC850055D345 /* SignUpCodable.swift */; };
 		6F9E2AE4237C00570055D345 /* SigninCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E2AE3237C00570055D345 /* SigninCodable.swift */; };
+		6FA2BFCE2BCEBA3F00193D6A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6FA2BFCD2BCEBA3F00193D6A /* README.md */; };
 		7476C31FA8BD212CF4DDC20C /* Pods_TruckYaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB582DED01906AE0B95416B /* Pods_TruckYaUITests.framework */; };
 		C96CD401239E111E00F67076 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96CD400239E111E00F67076 /* PaymentVC.swift */; };
 		C96CD404239E123E00F67076 /* AddCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96CD402239E123D00F67076 /* AddCard.swift */; };
@@ -464,6 +465,7 @@
 		4EB582DED01906AE0B95416B /* Pods_TruckYaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruckYaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9E2AE1237BFC850055D345 /* SignUpCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCodable.swift; sourceTree = "<group>"; };
 		6F9E2AE3237C00570055D345 /* SigninCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninCodable.swift; sourceTree = "<group>"; };
+		6FA2BFCD2BCEBA3F00193D6A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7D1111C42F43303E6C587972 /* Pods-TruckYa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckYa.release.xcconfig"; path = "Target Support Files/Pods-TruckYa/Pods-TruckYa.release.xcconfig"; sourceTree = "<group>"; };
 		9C00D07C820B5923765C261B /* Pods_TruckYa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruckYa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE6A88442ECF20D40092448 /* Pods-TruckYaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckYaTests.release.xcconfig"; path = "Target Support Files/Pods-TruckYaTests/Pods-TruckYaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -1193,6 +1195,7 @@
 		3D19793E232F749000B5EF12 = {
 			isa = PBXGroup;
 			children = (
+				6FA2BFCD2BCEBA3F00193D6A /* README.md */,
 				3D197949232F749000B5EF12 /* TruckYa */,
 				3D19795E232F749B00B5EF12 /* TruckYaTests */,
 				3D197969232F749C00B5EF12 /* TruckYaUITests */,
@@ -1619,6 +1622,7 @@
 				234CCFCD2372BD9A0020A7D8 /* BebasNeue-Bold.ttf in Resources */,
 				3D197989232F8C1900B5EF12 /* Gilroy-UltraLight.ttf in Resources */,
 				3D19798A232F8C1900B5EF12 /* rajdhani-light.ttf in Resources */,
+				6FA2BFCE2BCEBA3F00193D6A /* README.md in Resources */,
 				3D197955232F749B00B5EF12 /* LaunchScreen.storyboard in Resources */,
 				3D197996232F8C1900B5EF12 /* Gilroy-Thin.ttf in Resources */,
 				234CCFC92372BD9A0020A7D8 /* BebasNeue-Book.ttf in Resources */,

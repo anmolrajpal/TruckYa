@@ -24,7 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     var long = ""
     var iv: Any!
     static let shared = UIApplication.shared.delegate as! AppDelegate
-    //google map key: AIzaSyCa4NCbQkefO48Jms2skl3N8Wp1BITNtYY
     let gcmMessageIDKey = "gcm.message_id"
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
